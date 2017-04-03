@@ -1,10 +1,10 @@
 {
-  "name": "react-redux",
+  "name": "react-redux-temp",
   "version": "1.0.0",
   "description": "",
   "main": "index.tsx",
   "scripts": {
-    "start": "webpack-dev-server --progress --colors --config ./webpack.config.js"
+    "start": "webpack-dev-server --progress --colors --hot --config ./webpack.config.js"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +13,9 @@
     "@types/react": "^15.0.21",
     "@types/react-dom": "^0.14.23",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.1.2",
